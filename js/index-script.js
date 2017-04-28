@@ -9,7 +9,7 @@ $(function() {
         $(".pre-loder").delay(500).fadeOut('slow', function() {
             var newsLetterPopup = $('.news-letter-popup');
             newsLetterPopup.css({
-                'visibility': 'visible',
+                'visibility': 'hidden',
                 'opacity': 1
             });
         });
